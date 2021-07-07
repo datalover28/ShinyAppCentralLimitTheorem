@@ -1,0 +1,54 @@
+---
+title: "Week 4 Assignment"
+author: "Tanmay"
+date: "07/07/2021"
+output:
+  ioslides_presentation: default
+  html_document:
+    number_sections: yes
+    toc: yes
+  slidy_presentation: default
+mode: selfcontained
+job: Reproducible Pitch Presentation
+subtitle: Developing Data Products Course Project
+---
+
+## Introduction
+
+This presentation is part of the Developing Data Products Coursera.org course project submission.
+
+It is an R Presentation generated with RStudio.
+
+The Shiny application pitched by this presentation is at https://datalover28.shinyapps.io/CentralLimitTheorem/
+
+The Shiny app source code is available at https://github.com/datalover28/ShinyAppCentralLimitTheorem/tree/main/CentralLimitTheo
+
+
+## Application Overview
+
+- The application is written in Shiny which is a web application framework for R
+- The source code consists of two files: server.R and ui.R
+- server.R includes the the server logic of a Shiny web application
+- ui.R includes the the user-interface definition, which uses the sidebarLayout template
+- The application is hosted on Rstudio's shiny server in the cloud (Shinyapps.io)
+
+## How it works? - I | The Application contains: Left Panel
+
+- Left Panel Consists of three inputs
+- First : selectInput :- Choose either from uniform, exponential or normal
+- Second : sliderInput :- Choose the sample size
+- Third : sliderInput :- Choose number of simulations
+
+## How it works? - II | The Application contains: Main Panel
+
+There is one tabs in main panel as below:
+
+- Plot :- It displays the plot of whatever inputs you have selected in the left panel. It describes the Central limit theorem
+
+
+## Ready to give it a try?
+
+Use the Shiny app at https://datalover28.shinyapps.io/CentralLimitTheorem/ 
+
+Get the app source code at https://github.com/datalover28/ShinyAppCentralLimitTheorem
+
